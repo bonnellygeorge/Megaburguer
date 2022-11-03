@@ -1,0 +1,51 @@
+*{background-color:#DBD3C9 ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+text-align: center;}
+
+h1,h2,h3,h4{text-align: center;color:#f8f3f3;}
+ul{
+    list-style-type:none;
+    height: 80px;
+    width: 663px;
+    margin:auto;
+    background-image:url(./hamburguer1.jpg)
+}
+ul a{
+    background-image:url(./hamburguer1.jpg);
+    background-repeat: no-repeat;
+background-position: right;
+padding-right: 32px;
+padding-left: 32px;
+display: block;
+line-height: 80px;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 21px;
+color:#cc1919;
+}
+ul a:hover {
+    color: #FFF;
+    }
+
+li{
+    float:left
+}
+.noseparation{word-spacing: 1px;}
+.banner{
+    display:block; 
+    background-image: url(./hamburguer1.jpg);  color:#cc1919;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+     text-transform: capitalize;
+     height:500px;
+     font-size: 25px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     object-fit: contain;
+     
+}
+
+#submit:hover {color: rgb(163, 18, 240);}
+#submit{background-color:#f8f3f3;color: #cc1919; border-color:#f8f3f3 ;}
